@@ -1,0 +1,48 @@
+JAVASCRIPT
+
+<script> nomeDoAruqivo.js </script> -> Para utilizar o JS em um arquivo individual;
+(Utilizar ao final do código, antes do </body>);
+
+
+Váriaveis:
+
+Var:
+
+Let:
+
+Const
+
+
+FUNÇÕES BASE:
+
+Alert(""): Serve para abrir uma caixa de texto no navegador com a informação desejada;
+
+Console.log(""): Serve para exibir uma informação no console/prompt do navegador;
+
+InnerHTML: Serve para buscar apenas o conteúdo do elemento(removendo a parte do HTML);
+	Serve para alterar itens do arquivo HTML;
+
+
+FUNÇÕES COMPLEMENTARES:
+
+Document: Serve para acessar os elementos do documento HTML;
+
+getElements:
+	document.getElementById(""): Serve para buscar um elemento pelo ID;
+	document.getElementsByClassName(""): Serve para buscar um elemento pela Class;
+		document.getElementsByClassName[número do elemento desejado]: Serve para buscar apenas este elemento da Class;
+	document.getElementsByTagName(""): Serve para buscar um elemento pela Tag;
+
+
+querySelector:	
+	document.querySelector(""): Serve para buscar o 1º elemento de qualquer tipo(id,class,tag...);
+	document.querySelectorAll(""): Serve para buscar o todos os elementos de qualquer tipo(id,class,tag...);
+
+(Da para utilizar getElemets + querySelector EX: document.getElementById ("").querySelectorAll ("");
+	
+
+Screen: Serve para retornar informações desejadas para o console/prompt do navegador;
+
+History: Serve para retornar dados sobre o histórico;
+	history.back() {}: pode retornar uma página;
+	history.forward() {}: pode avançar uma página;

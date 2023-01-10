@@ -1,0 +1,93 @@
+AULA DE LINUX (UBUNTU)
+
+Comandos Básicos:
+
+Pdw : Mostra o diretório atual;
+
+Echo: Criar um Arquivo/ Exibi mensagem no terminal;
+	Echo (>): (Criar) Escrever/Sobrescrever
+	 Echo (>>): Adicionar
+
+Whoami: Mostra o usuário;
+
+Clear: Limpa o Terminal;
+
+Man + (var): Mostra ajuda sobre o quê está pesquisando;
+
+Ls: Retorna o conteúdo do diretório atual;
+	Ls (-l): Retorna o conteúdo do diretório atual com MAIS DETALHES;
+	 Ls (-a): Retorna o conteúdo do diretório atual, INCLUINDO ARQUIVOS OCULTOS;
+	  Ls (-la): Retorna os Arquivos(Inclusive ocultos) + detalhes;
+	 --Ls (.): Diretório ATUAL;
+	    Ls (..): Diretório ANTERIOR;
+
+Cat: Exibi o conteúdo de um arquivo;
+	Cat (-v): Mostra caracteres ESCONDIDOS;
+	 Cat (-n): mostra as LINHAS além de mostrar o conteúdo de um arquivo;
+	  Cat (nome?): lê todos os arquivos com UM caractere diferente;
+	   Cat (nome*): lê todos os arquivos com VÁRIOS caracteres diferentes;
+
+Cd + Diretório:  Usado para alter de diretório;
+	Exemplo: Cd + Desktop;
+	 Cd + (..): Diretório ANTERIOR;
+
+Mkdir + (nome): CRIAR um diretório;
+
+Rmidir + (nome): APAGAR um diretório vazio;
+
+Rm + (nome): APAGAR um arquivo;
+	Rm + (-r): Apaga um diretório MESMO COM ARQUIVOS;
+
+
+Cp: COPIAR um arquivo;
+	Cp + (-r): COPIAR um diretório;
+
+
+Mv: RENOMEAR/MOVER arquivo;
+	Mv + (-r): MOVER um diretório;
+
+
+Zip + (nome.zip): CRIA/COMPACTA arquivo .Zip;
+	Zip + (-r) CRIA/COMPACTA arquivo e diretórios .Zip;
+	 Unzip: DESCOMPACTA o arquivo .Zip;
+	  Zip/ Unzip + (-q): Mostra MENOS INFORMAÇÕES;
+
+Tar: Serve para EMPACOTAR vários diretórios e arquivos em um único arquivo;
+	OBS: "Tar" já é (-r)recursivo;
+	Tar + (-cz): CRIA um arquivo Tar e COMPACTA um arquivo em .Zip;
+	 Tar + (.gz): DESCOMPACTA o arquivo;
+	  Tar + (-xz): EXTRAI um arquivo Tar em .Zip;
+
+Touch: Muda a data de ÚLTIMA MODIFICAÇÃO do arquivo;
+
+Head: LÊ as 10 PRIMEIRAS linhas de um arquivo;
+	Head + (-n + *): Lê quantidade X de linhas;
+
+Tail: LÊ as ÚLTIMAS 10 linhas do arquivo;
+	Tail + (-n + *): Lê quantidade X de linhas;
+
+Vi + (arquivo): Para EDITAR no terminal;
+	i: Para passar para o modo de EDIÇÃO no caractere ATUAL;
+	 a: Para passar para o modo de EDIÇÃO no caractere SEGUINTE;
+	  A: Para passar para o modo de EDIÇÃO no ÚLTIMO caractere da linha;
+	   esc: Volta para o modo OBSERVAÇÃO;
+	   :w : Para SALVAR o arquivo editado;
+	    :q : Para SAIR do arquivo;
+	     :q! : Para SAIR do arquivo SEM SALVAR;
+	      x: Para APAGAR o caractere ATUAL;
+	       (*) + x: Para APAGAR VÁRIOS caracteres;
+	        dd: Para APAGAR uma LINHA completa;
+		 G: MOVE para a ÚLTIMA linha;
+		  1 + G: MOVE para a PRIMEIRA linha;
+		   / + palavra-chave: PESQUISA a palavra no arquivo;
+		   n: PRÓXIMA palavra-chave pesquisada;
+		    N: ANTERIOR palavra-chave pesquisada;
+		     0: COMEÇO da LINHA:
+		     $: FINAL da LINHA:
+		     yy: Para COPIAR uma LINHA;
+		     (*) + yy : Para COPIAR VÁRIAS LINHAS;
+		      p: Para COLAR a LINHA copiada;
+
+
+
+
